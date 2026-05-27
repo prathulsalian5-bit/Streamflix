@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Shows - StreamFlix</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">▶ StreamFlix</div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tvshows.html" class="active">TV Shows</a></li>
+            <li><a href="anime.html">Anime</a></li>
+        </ul>
+        <div class="nav-auth">
+            <a href="login.html" class="btn-login">Login</a>
+            <a href="signup.html" class="btn-signup">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <section class="hero" data-slider="tvshows-slide">
+        <input type="radio" name="tvshows-slide" id="tvshows-slide1" checked>
+        <input type="radio" name="tvshows-slide" id="tvshows-slide2">
+        <input type="radio" name="tvshows-slide" id="tvshows-slide3">
+
+        <div class="slider-wrapper">
+            <div class="slider">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7AUQ1ap545wJq1Op_9GPLFAV15boesLoyZA&s" alt="Breaking Bad">
+                    <div class="slide-content">
+                        <h1>Breaking Bad</h1>
+                        <p>Thriller • S5 • 9.2★ - One of the greatest TV series ever made.</p>
+                        <div class="hero-buttons">
+                            <a href="player.html?movie=Breaking Bad" class="btn-primary">▶ Watch Now</a>
+                            <button class="btn-secondary">+ Add to List</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Stranger_Things_season_1.jpg" alt="Stranger Things">
+                    <div class="slide-content">
+                        <h1>Stranger Things</h1>
+                        <p>Sci-Fi • S4 • 8.7★ - Strange events occur in a small town.</p>
+                        <div class="hero-buttons">
+                            <a href="player.html?movie=Stranger Things" class="btn-primary">▶ Watch Now</a>
+                            <button class="btn-secondary">+ Add to List</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Game of Thrones">
+                    <div class="slide-content">
+                        <h1>Game of Thrones</h1>
+                        <p>Fantasy • S6 • 9.1★ - An epic fantasy series with dragons and intrigue.</p>
+                        <div class="hero-buttons">
+                            <a href="player.html?movie=Game of Thrones" class="btn-primary">▶ Watch Now</a>
+                            <button class="btn-secondary">+ Add to List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Navigation -->
+        <div class="slider-nav">
+            <label for="tvshows-slide1" class="slider-dot"></label>
+            <label for="tvshows-slide2" class="slider-dot"></label>
+            <label for="tvshows-slide3" class="slider-dot"></label>
+        </div>
+    </section>
+
+    <!-- Section 1: Crime & Thriller -->
+    <section class="anime-section">
+        <h2>🔪 Crime & Thriller</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=Breaking Bad" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7AUQ1ap545wJq1Op_9GPLFAV15boesLoyZA&s" alt="Breaking Bad">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Breaking Bad</div>
+                <div class="card-rating">⭐ 9.2</div>
+            </a>
+
+            <a href="player.html?movie=Narcos" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Narcos_season_1.png/250px-Narcos_season_1.png" alt="Narcos">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Narcos</div>
+                <div class="card-rating">⭐ 8.8</div>
+            </a>
+
+            <a href="player.html?movie=The Haunting" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_.jpg" alt="The Haunting">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The Haunting</div>
+                <div class="card-rating">⭐ 8.5</div>
+            </a>
+
+            <a href="player.html?movie=Westworld" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Westworld_season_1.png/250px-Westworld_season_1.png" alt="Westworld">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Westworld</div>
+                <div class="card-rating">⭐ 8.3</div>
+            </a>
+
+            <a href="player.html?movie=The Witcher" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BOTQzMzNmMzUtODgwNS00YTdhLTg5N2MtOWU1YTc4YWY3NjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Witcher">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The Witcher</div>
+                <div class="card-rating">⭐ 8.2</div>
+            </a>
+
+            <a href="player.html?movie=Game of Thrones" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Game of Thrones">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Game of Thrones</div>
+                <div class="card-rating">⭐ 9.1</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 2: Comedy & Entertainment -->
+    <section class="anime-section">
+        <h2>😂 Comedy & Entertainment</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=The Kapil Sharma Show" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYTkxNTNhYjktMTcxNy00OTA5LThlY2ItZjM3YTFjYmQ1ZmYzXkEyXkFqcGc@._V1_.jpg" alt="The Kapil Sharma Show">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The Kapil Sharma Show</div>
+                <div class="card-rating">⭐ 8.9</div>
+            </a>
+
+            <a href="player.html?movie=The Office" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/51rCkF2r3iL._AC_UF1000,1000_QL80_.jpg" alt="The Office">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The Office</div>
+                <div class="card-rating">⭐ 9.0</div>
+            </a>
+
+            <a href="player.html?movie=Friends" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyFlK5bul2WPRpYrLCqe_4nbqUcg_qpsAplg&s" alt="Friends">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Friends</div>
+                <div class="card-rating">⭐ 8.9</div>
+            </a>
+
+            <a href="player.html?movie=Modern Family" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/81YzGusG3cL._AC_UF1000,1000_QL80_.jpg" alt="Modern Family">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Modern Family</div>
+                <div class="card-rating">⭐ 9.5</div>
+            </a>
+
+            <a href="player.html?movie=The big bang theory" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://source.boomplaymusic.com/buzzgroup1/M00/38/96/rBEevGJmSVeANZa8AAINQZ3N0ck753.png" alt="Stranger Things">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The big bang theory</div>
+                <div class="card-rating">⭐ 8.7</div>
+            </a>
+
+            <a href="player.html?movie=the boys" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoX9eJxVZpRQzNUKP9PHMzNHW6a922HK6dNA&s" alt="Breaking Bad">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">the boys</div>
+                <div class="card-rating">⭐ 9.2</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 3: Sci-Fi & Action -->
+    <section class="anime-section">
+        <h2>🚀 Sci-Fi & Action</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=Stranger Things" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Stranger_Things_season_1.jpg" alt="Stranger Things">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Stranger Things</div>
+                <div class="card-rating">⭐ 8.7</div>
+            </a>
+
+            <a href="player.html?movie=The Mandalorian" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/81POs6kkJYL._AC_UF1000,1000_QL80_.jpg" alt="The Mandalorian">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The Mandalorian</div>
+                <div class="card-rating">⭐ 8.6</div>
+            </a>
+
+            <a href="player.html?movie=Westworld" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Westworld_season_1.png/250px-Westworld_season_1.png" alt="Westworld">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Westworld</div>
+                <div class="card-rating">⭐ 8.3</div>
+            </a>
+
+            <a href="player.html?movie=The Witcher" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BOTQzMzNmMzUtODgwNS00YTdhLTg5N2MtOWU1YTc4YWY3NjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Witcher">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The Witcher</div>
+                <div class="card-rating">⭐ 8.2</div>
+            </a>
+
+            <a href="player.html?movie=Game of Thrones" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Game of Thrones">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Game of Thrones</div>
+                <div class="card-rating">⭐ 9.1</div>
+            </a>
+
+            <a href="player.html?movie=Breaking Bad" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7AUQ1ap545wJq1Op_9GPLFAV15boesLoyZA&s" alt="Breaking Bad">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Breaking Bad</div>
+                <div class="card-rating">⭐ 9.2</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 4: Fantasy & Drama -->
+    <section class="anime-section">
+        <h2>🏰 Fantasy & Drama</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=Game of Thrones" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Game of Thrones">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Game of Thrones</div>
+                <div class="card-rating">⭐ 9.1</div>
+            </a>
+
+            <a href="player.html?movie=The Witcher" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BOTQzMzNmMzUtODgwNS00YTdhLTg5N2MtOWU1YTc4YWY3NjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Witcher">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The Witcher</div>
+                <div class="card-rating">⭐ 8.2</div>
+            </a>
+
+            <a href="player.html?movie=Narcos" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Narcos_season_1.png/250px-Narcos_season_1.png" alt="Narcos">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Narcos</div>
+                <div class="card-rating">⭐ 8.8</div>
+            </a>
+
+            <a href="player.html?movie=The Haunting" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_.jpg" alt="The Haunting">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The Haunting</div>
+                <div class="card-rating">⭐ 8.5</div>
+            </a>
+
+            <a href="player.html?movie=Modern Family" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/81YzGusG3cL._AC_UF1000,1000_QL80_.jpg" alt="Modern Family">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Modern Family</div>
+                <div class="card-rating">⭐ 9.5</div>
+            </a>
+
+            <a href="player.html?movie=The Office" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/51rCkF2r3iL._AC_UF1000,1000_QL80_.jpg" alt="The Office">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The Office</div>
+                <div class="card-rating">⭐ 9.0</div>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <p>&copy; 2024 StreamFlix | <a href="about.html">About</a> | <a href="privacy.html">Privacy</a> | <a href="#">Contact</a></p>
+</footer>
+
+    <script src="slider.js"></script>
+</body>
+</html>

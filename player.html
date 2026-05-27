@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player - StreamFlix</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+
+        <div class="nav-brand">
+            ▶ StreamFlix
+        </div>
+
+        <a href="index.html" class="back-btn">
+            ← Back
+        </a>
+
+    </nav>
+
+    <!-- ================= PLAYER PAGE ================= -->
+    <div class="player-page">
+
+        <!-- VIDEO PLAYER -->
+        <div class="video-player-wrapper">
+
+            <iframe
+                id="mainPlayer"
+                class="video-player"
+                width="100%"
+                height="600"
+                src=""
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+        <!-- ================= VIDEO DETAILS ================= -->
+        <div class="video-details">
+
+            <div class="details-left">
+
+                <h1 id="movieTitle">
+                    Loading...
+                </h1>
+
+                <div class="movie-meta">
+
+                    <span id="movieGenre">
+                        Genre
+                    </span>
+
+                    <span id="movieYear">
+                        2024
+                    </span>
+
+                    <span id="movieRating">
+                        ⭐ 8.5
+                    </span>
+
+                </div>
+
+                <p id="movieDescription">
+                    Loading description...
+                </p>
+
+                <div class="action-buttons">
+
+                    <button class="btn-primary" id="playBtn">
+                        ▶ Play
+                    </button>
+
+                    <button class="btn-secondary">
+                        + Add to List
+                    </button>
+
+                    <button class="btn-secondary">
+                        👍 Like
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- ================= RELATED VIDEOS ================= -->
+            <div class="details-right">
+
+                <h3>Related Videos</h3>
+
+                <div class="related-videos" id="relatedVideos">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ================= COMMENTS ================= -->
+        <div class="comments-section">
+
+            <h3>Comments</h3>
+
+            <div class="comment-form">
+
+                <textarea
+                    placeholder="Add a comment..."
+                    id="commentInput">
+                </textarea>
+
+                <button
+                    class="btn-primary"
+                    onclick="addComment()">
+
+                    Post Comment
+
+                </button>
+
+            </div>
+
+            <div class="comments-list" id="commentsList">
+
+                <div class="comment">
+
+                    <strong>John Doe</strong>
+
+                    <p>
+                        Amazing movie! Highly recommended. ⭐⭐⭐⭐⭐
+                    </p>
+
+                </div>
+
+                <div class="comment">
+
+                    <strong>Jane Smith</strong>
+
+                    <p>
+                        Great entertainment! Worth watching. 👍
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <p>
+            © 2024 StreamFlix |
+            <a href="about.html">About</a> |
+            <a href="#">Privacy</a> |
+            <a href="#">Contact</a>
+        </p>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="player.js"></script>
+
+</body>
+</html>

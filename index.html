@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlix - Movies & Shows</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">▶ StreamFlix</div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tvshows.html">TV Shows</a></li>
+            <li><a href="anime.html">Anime</a></li>
+        </ul>
+        <div class="nav-auth">
+            <a href="login.html" class="btn-login">Login</a>
+            <a href="signup.html" class="btn-signup">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <section class="hero" data-slider="slide">
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+        <input type="radio" name="slide" id="slide3">
+
+        <div class="slider-wrapper">
+            <div class="slider">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Guardians_of_the_Galaxy_%28film%29_poster.jpg/250px-Guardians_of_the_Galaxy_%28film%29_poster.jpg" alt="Guardians of the Galaxy">
+                    <div class="slide-content">
+                        <h1>Guardians of the Galaxy</h1>
+                        <p>An epic Marvel space adventure.</p>
+                        <div class="hero-buttons">
+                            <a href="player.html?movie=Guardians of the Galaxy" class="btn-primary">▶ Watch Now</a>
+                            <button class="btn-secondary">+ Add to List</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="https://preview.redd.it/spiderman-brand-new-day-concept-poster-v0-90occncknsgf1.jpeg?auto=webp&s=f101024e4b8e7c2a72f3ad297567a1ccb210f119" alt="Spider-Man">
+                    <div class="slide-content">
+                        <h1>Spider-Man Brand New Day</h1>
+                        <p>Battle between light and darkness.</p>
+                        <div class="hero-buttons">
+                            <a href="player.html?movie=Spider-Man" class="btn-primary">▶ Watch Now</a>
+                            <button class="btn-secondary">+ Add to List</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="https://preview.redd.it/what-do-you-want-to-see-most-in-avengers-doomsday-v0-flc2pue4pdqf1.jpeg?auto=webp&s=c9530c15562750a2f856744afa5f92a88c89a5f5" alt="Avengers">
+                    <div class="slide-content">
+                        <h1>Avengers Doomsday</h1>
+                        <p>Marvel thriller experience.</p>
+                        <div class="hero-buttons">
+                            <a href="pages/player.html?movie=Avengers" class="btn-primary">▶ Watch Now</a>
+                            <button class="btn-secondary">+ Add to List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Navigation -->
+        <div class="slider-nav">
+            <label for="slide1" class="slider-dot"></label>
+            <label for="slide2" class="slider-dot"></label>
+            <label for="slide3" class="slider-dot"></label>
+        </div>
+    </section>
+
+    <!-- Trending Now Section -->
+    <section class="anime-section">
+        <h2>🔥 Trending Now</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=Project Hailmary" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBcioW2vsIKd-ZIs477imI2_GEKXqJrVHQrg&s" alt="Project Hailmary">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Project Hailmary</div>
+                <div class="card-rating">⭐ 8.5</div>
+            </a>
+
+            <a href="player.html?movie=Paradise" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://cdn.district.in/movies-assets/images/cinema/The-Paradise_Poster-2c67d280-75d9-11f0-8df3-db01d1baa444.jpg" alt="Paradise">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Paradise</div>
+                <div class="card-rating">⭐ 8.3</div>
+            </a>
+
+            <a href="player.html?movie=Terror" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHAkRx8SAqqfTHfLy3w0Ti-vhT5By474fc2Q&s" alt="Terror">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Terror</div>
+                <div class="card-rating">⭐ 8.7</div>
+            </a>
+
+            <a href="player.html?movie=Hai Jawani" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://cdn.district.in/movies-assets/images/cinema/Hai-Jawani-Toh-Ishq-Hona-Hai_Cover-ea143d50-4d0b-11f1-ab00-2bad8ba2a996.jpg" alt="Hai Jawani">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Hai Jawani</div>
+                <div class="card-rating">⭐ 8.1</div>
+            </a>
+
+            <a href="player.html?movie=Athma" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://i.ytimg.com/vi/vEbxDNum6qU/maxresdefault.jpg" alt="Athma">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Athma</div>
+                <div class="card-rating">⭐ 8.4</div>
+            </a>
+
+            <a href="player.html?movie=Swapped" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWy559RcK_PTwyt5V8CttlzLTkTy3cL6qH5QWCn32JVSv22ynH2OghNn5Aw58WtPgfqC7fvyrW8QZIBTL5_FaH18kTXhejs95BYx.jpg?r=0c6" alt="Swapped">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Swapped</div>
+                <div class="card-rating">⭐ 8.6</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Popular Section -->
+    <section class="anime-section">
+        <h2>⭐ Popular</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=The Bluff" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZDVlYWM2YjAtZTUxMS00OWEwLWI4YWMtNmFhMjU3MDY4OGJkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Bluff">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">The Bluff</div>
+                <div class="card-rating">⭐ 8.8</div>
+            </a>
+
+            <a href="pages/player.html?movie=Street Fighter" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://cdn.kinocheck.com/i/ti20j6m42f.jpg" alt="Street Fighter">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Street Fighter</div>
+                <div class="card-rating">⭐ 8.2</div>
+            </a>
+
+            <a href="pages/player.html?movie=Anaconda" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwXG9XTp2FjR9X4eqUIfO8uK3W_-uOKTthZA&s" alt="Anaconda">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Anaconda</div>
+                <div class="card-rating">⭐ 8.0</div>
+            </a>
+
+            <a href="pages/player.html?movie=Karuppu" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://jp-cineplex.s3.amazonaws.com/images/1778427294094_mv5bnge3nmy3n2itytyyyi00mmnmlthhmdutywyxyjgxyjhjzdu5xkeyxkfqcgc_v1_.jpg" alt="Karuppu">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Karuppu</div>
+                <div class="card-rating">⭐ 9.5</div>
+            </a>
+
+            <a href="pages/player.html?movie=Youth" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BN2Q4MDRlMjItNWY5ZC00MGIxLTg3MGQtYTdlOTE5MTY1N2M1XkEyXkFqcGc@._V1_.jpg" alt="Youth">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Youth</div>
+                <div class="card-rating">⭐ 8.4</div>
+            </a>
+
+            <a href="pages/player.html?movie=Cocktail 2" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://images.bhaskarassets.com/web2images/521/2026/02/20/whatsapp-image-2026-02-20-at-134949_1771576032.jpeg" alt="Cocktail 2">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Cocktail 2</div>
+                <div class="card-rating">⭐ 8.5</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <p>&copy; 2024 StreamFlix | <a href="about.html">About</a> | <a href="privacy.html">Privacy</a> | <a href="#">Contact</a></p>
+</footer>
+
+    <script src="slider.js"></script>
+    <script src="player.js"></script>
+
+</body>
+</html>

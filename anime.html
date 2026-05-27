@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime - StreamFlix</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">▶ StreamFlix</div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tvshows.html">TV Shows</a></li>
+            <li><a href="anime.html" class="active">Anime</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="nav-auth">
+            <a href="login.html" class="btn-login">Login</a>
+            <a href="signup.html" class="btn-signup">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Add this in <head> -->
+<link rel="stylesheet" href="slider.css">
+
+<!-- Replace old hero with this -->
+<section class="hero" data-slider="anime-slide" style="margin-bottom: 2rem;">
+    <input type="radio" name="anime-slide" id="anime-slide1" checked>
+    <input type="radio" name="anime-slide" id="anime-slide2">
+    <input type="radio" name="anime-slide" id="anime-slide3">
+
+    <div class="slider-wrapper">
+        <div class="slider">
+            <div class="slide">
+                <img src="https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Attack on Titan">
+                <div class="slide-content">
+                    <h1>🎌 Attack on Titan</h1>
+                    <p>Humanity's last hope</p>
+                    <div class="hero-buttons">
+                        <a href="player.html?movie=Attack on Titan" class="btn-primary">▶ Watch Now</a>
+                        <button class="btn-secondary">+ Add to List</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_.jpg" alt="Death Note">
+                <div class="slide-content">
+                    <h1>Death Note</h1>
+                    <p>Psychological thriller</p>
+                    <div class="hero-buttons">
+                        <a href="player.html?movie=Death Note" class="btn-primary">▶ Watch Now</a>
+                        <button class="btn-secondary">+ Add to List</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqLSe0YxHCOtJikJKKAC5nm7NmlqwyXG1tWA&s" alt="Demon Slayer">
+                <div class="slide-content">
+                    <h1>Demon Slayer</h1>
+                    <p>Stunning animation</p>
+                    <div class="hero-buttons">
+                        <a href="player.html?movie=Demon Slayer" class="btn-primary">▶ Watch Now</a>
+                        <button class="btn-secondary">+ Add to List</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider-nav">
+        <label for="anime-slide1" class="slider-dot"></label>
+        <label for="anime-slide2" class="slider-dot"></label>
+        <label for="anime-slide3" class="slider-dot"></label>
+    </div>
+</section>
+
+<!-- Add before </body> -->
+<script src="slider.js"></script>
+
+    <!-- Trending Anime Section -->
+    <section class="anime-section">
+        <h2>🔥 Trending Now</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=Death Note" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_.jpg" alt="Death Note">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Death Note</div>
+                <div class="card-rating">⭐ 9.0 • 37 EP</div>
+            </a>
+
+            <a href="player.html?movie=Demon Slayer" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqLSe0YxHCOtJikJKKAC5nm7NmlqwyXG1tWA&s" alt="Demon Slayer">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Demon Slayer</div>
+                <div class="card-rating">⭐ 8.8 • 55 EP</div>
+            </a>
+
+            <a href="player.html?movie=My Hero Academia" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BY2QzODA5OTQtYWJlNi00ZjIzLThhNTItMDMwODhlYzYzMjA2XkEyXkFqcGc@._V1_.jpg" alt="My Hero Academia">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">My Hero Academia</div>
+                <div class="card-rating">⭐ 8.7 • 148 EP</div>
+            </a>
+
+            <a href="player.html?movie=Tokyo Ghoul" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZWI2NzZhMTItOTM3OS00NjcyLThmN2EtZGZjMjlhYWMwODMzXkEyXkFqcGc@._V1_.jpg" alt="Tokyo Ghoul">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Tokyo Ghoul</div>
+                <div class="card-rating">⭐ 8.5 • 48 EP</div>
+            </a>
+
+            <a href="player.html?movie=Naruto" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZTNjOWI0ZTAtOGY1OS00ZGU0LWEyOWYtMjhkYjdlYmVjMDk2XkEyXkFqcGc@._V1_.jpg" alt="Naruto">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Naruto</div>
+                <div class="card-rating">⭐ 8.9 • 220 EP</div>
+            </a>
+
+            <a href="player.html?movie=Steins Gate" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZjI1YjZiMDUtZTI3MC00YTA5LWIzMmMtZmQ0NTZiYWM4NTYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Steins Gate">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Steins;Gate</div>
+                <div class="card-rating">⭐ 9.2 • 24 EP</div>
+            </a>
+
+            <a href="player.html?movie=One Punch Man" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="One Punch Man">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">One Punch Man</div>
+                <div class="card-rating">⭐ 8.7 • 24 EP</div>
+            </a>
+
+            <a href="player.html?movie=Fullmetal Alchemist" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Fullmetal Alchemist</div>
+                <div class="card-rating">⭐ 9.1 • 64 EP</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Popular Anime Section -->
+    <section class="anime-section">
+        <h2>⭐ Most Popular</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=Jujutsu Kaisen" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMjBlNTExMDAtMWZjZi00MDc5LWFkMjgtZDU0ZWQ5ODk3YWY5XkEyXkFqcGc@._V1_.jpg" alt="Jujutsu Kaisen">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Jujutsu Kaisen</div>
+                <div class="card-rating">⭐ 8.9 • 47 EP</div>
+            </a>
+
+            <a href="player.html?movie=Hunter x Hunter" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_.jpg" alt="Hunter x Hunter">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Hunter x Hunter</div>
+                <div class="card-rating">⭐ 8.9 • 148 EP</div>
+            </a>
+
+            <a href="player.html?movie=Cowboy Bebop" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdz-wzzr_U2iolT9zYC333DmJz4aKsiBKb7A&s" alt="Cowboy Bebop">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Cowboy Bebop</div>
+                <div class="card-rating">⭐ 8.8 • 26 EP</div>
+            </a>
+
+            <a href="player.html?movie=Mob Psycho 100" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://qqcdnpictest.mxplay.com/pic/f4882bd59f9569a33171a160bc4bc75f/en/16x9/640x360/test_pic1746435493451.jpg" alt="Mob Psycho 100">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Mob Psycho 100</div>
+                <div class="card-rating">⭐ 8.7 • 50 EP</div>
+            </a>
+
+            <a href="player.html?movie=Code Geass" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMjA3OTUzNTIzOV5BMl5BanBnXkFtZTgwOTg4MTI1NjE@._V1_.jpg" alt="Code Geass">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Code Geass</div>
+                <div class="card-rating">⭐ 8.7 • 50 EP</div>
+            </a>
+
+            <a href="player.html?movie=Vinland Saga" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNDA3MGNmZTEtMzFiMy00ZmViLThhNmQtMjQ4ZDc5MDEyN2U1XkEyXkFqcGc@._V1_.jpg" alt="Vinland Saga">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Vinland Saga</div>
+                <div class="card-rating">⭐ 9.0 • 48 EP</div>
+            </a>
+
+            <a href="player.html?movie=Sword Art Online" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/81rBX2Un6xL._AC_UF1000,1000_QL80_.jpg" alt="Sword Art Online">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Sword Art Online</div>
+                <div class="card-rating">⭐ 8.4 • 96 EP</div>
+            </a>
+
+            <a href="player.html?movie=Ergo Proxy" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://i.redd.it/ergo-proxy-one-of-the-all-time-greats-of-the-genre-v0-80or5wfl3pdc1.jpg?width=1920&format=pjpg&auto=webp&s=26ee91247b831a1396b140623fcc906833da10b5" alt="Ergo Proxy">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Ergo Proxy</div>
+                <div class="card-rating">⭐ 8.5 • 23 EP</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- New Releases Section -->
+    <section class="anime-section">
+        <h2>🎬 Latest Releases</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=Frieren" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZTI4ZGMxN2UtODlkYS00MTBjLWE1YzctYzc3NDViMGI0ZmJmXkEyXkFqcGc@._V1_.jpg" alt="Frieren">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Frieren</div>
+                <div class="card-rating">⭐ 9.3 • 28 EP</div>
+            </a>
+
+            <a href="player.html?movie=Solo Leveling" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://resizing.flixster.com/ChafGu2e-ZWTxSZOycoILjKeRqw=/fit-in/352x330/v2/https://resizing.flixster.com/WvUR0LcCwPkfo07dl1CChnL1f6o=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMzRlNmFmN2MtNjA2Mi00MTUwLTg2MGYtOGZlN2M5OGRjZWUzLnBuZw==" alt="Solo Leveling">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Solo Leveling</div>
+                <div class="card-rating">⭐ 8.8 • 12 EP</div>
+            </a>
+
+            <a href="player.html?movie=Spy x Family" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://comicbook.com/wp-content/uploads/sites/4/2025/03/Spy-x-Family-Key-Visual.jpeg?w=724" alt="Spy x Family">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Spy x Family</div>
+                <div class="card-rating">⭐ 8.6 • 50 EP</div>
+            </a>
+
+            <a href="player.html?movie=Chainsaw Man" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://snworksceo.imgix.net/cds/5cfb9cca-68ee-42bc-aa29-760c168924e8.sized-1000x1000.jpg?w=1000&dpr=2" alt="Chainsaw Man">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Chainsaw Man</div>
+                <div class="card-rating">⭐ 8.7 • 12 EP</div>
+            </a>
+
+            <a href="player.html?movie=Blue Lock" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqD8SmKVSQN-p4D28bdmvQ3-Zx0X53sA6anQ&s" alt="Blue Lock">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Blue Lock</div>
+                <div class="card-rating">⭐ 8.3 • 13 EP</div>
+            </a>
+
+            <a href="player.html?movie=Kaiju No 8" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Kaiju_No_8.jpg/250px-Kaiju_No_8.jpg" alt="Kaiju No 8">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Kaiju No. 8</div>
+                <div class="card-rating">⭐ 8.5 • 13 EP</div>
+            </a>
+
+            <a href="player.html?movie=Wind Breaker" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNTQzNDI5OGItZDZkMy00MWQ1LWIwM2YtYzc2YWNhOGJlZWQxXkEyXkFqcGc@._V1_.jpg" alt="Wind Breaker">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Wind Breaker</div>
+                <div class="card-rating">⭐ 8.2 • 13 EP</div>
+            </a>
+
+            <a href="player.html?movie=Trigun" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTng154LhHILacW95VG66HIjA_Ss_445w-bsg&s" alt="Trigun">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Trigun</div>
+                <div class="card-rating">⭐ 8.4 • 26 EP</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Action Anime Section -->
+    <section class="anime-section">
+        <h2>💥 Action-Packed</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=Attack on Titan" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Attack on Titan">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Attack on Titan</div>
+                <div class="card-rating">⭐ 9.1 • 76 EP</div>
+            </a>
+
+            <a href="player.html?movie=Bleach" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Bleachanime.png/250px-Bleachanime.png" alt="Bleach">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Bleach</div>
+                <div class="card-rating">⭐ 7.9 • 366 EP</div>
+            </a>
+
+            <a href="player.html?movie=Fairy Tail" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://image.api.playstation.com/vulcan/img/rnd/202007/1305/oNkLAxLkFuLVcaJ6XpaNkkNb.png" alt="Fairy Tail">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Fairy Tail</div>
+                <div class="card-rating">⭐ 8.2 • 328 EP</div>
+            </a>
+
+            <a href="player.html?movie=One Piece" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://i.redd.it/0u2aefrzacmc1.jpeg" alt="One Piece">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">One Piece</div>
+                <div class="card-rating">⭐ 8.8 • 1000+ EP</div>
+            </a>
+
+            <a href="player.html?movie=Dragon Ball Z" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BN2VlNTdlMzQtYzE5OC00YmYwLTgyZTItYjEzMWY0ZDNjMTJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Dragon Ball Z">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Dragon Ball Z</div>
+                <div class="card-rating">⭐ 8.7 • 291 EP</div>
+            </a>
+
+            <a href="player.html?movie=Seven Deadly Sins" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Seven_Deadly_Sins_Characters.jpg/330px-Seven_Deadly_Sins_Characters.jpg" alt="Seven Deadly Sins">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Seven Deadly Sins</div>
+                <div class="card-rating">⭐ 8.3 • 100 EP</div>
+            </a>
+
+            <a href="player.html?movie=Akame ga Kill" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYTQyZGQzMmUtNjcwMy00ZThiLWFmMzMtOTA0NTI3OWE0MTU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Akame ga Kill">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Akame ga Kill</div>
+                <div class="card-rating">⭐ 8.1 • 25 EP</div>
+            </a>
+
+            <a href="player.html?movie=Kill la Kill" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://a.storyblok.com/f/178900/847x1199/5a03b402c3/tengen-toppa-gurren-lagann-vs-kill-la-kill-exhibition-visual.jpg/m/filters:quality(95)format(webp)" alt="Kill la Kill">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Kill la Kill</div>
+                <div class="card-rating">⭐ 8.4 • 24 EP</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Comedy/Slice of Life Section -->
+    <section class="anime-section">
+        <h2>😂 Comedy & Slice of Life</h2>
+        <div class="scroll-container">
+            <a href="player.html?movie=Nichijou" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNDk1YjhiODktNjczMC00MDgxLTlkMGMtMzdkNzY1MTk4YjkxXkEyXkFqcGc@._V1_.jpg" alt="Nichijou">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Nichijou</div>
+                <div class="card-rating">⭐ 8.2 • 26 EP</div>
+            </a>
+
+            <a href="player.html?movie=Kaguya-sama" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTM1ZWViNWMtZWY2ZC00YmYyLTk1ZGEtMzRjOWI2YTM1OTI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Kaguya-sama">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Kaguya-sama</div>
+                <div class="card-rating">⭐ 8.6 • 37 EP</div>
+            </a>
+
+            <a href="player.html?movie=Konosuba" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/81+BXD01wtL.jpg" alt="Konosuba">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Konosuba</div>
+                <div class="card-rating">⭐ 8.3 • 20 EP</div>
+            </a>
+
+            <a href="player.html?movie=Slice of Life" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReIH0EJPWtXZQAoP58Xrs9rBBU7hnGI9nKUA&s" alt="A Place Further">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">A Place Further</div>
+                <div class="card-rating">⭐ 8.5 • 13 EP</div>
+            </a>
+
+            <a href="player.html?movie=Yuru Camp" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/9/90/Yurucamp%2C_Volume_1.jpg" alt="Yuru Camp">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Yuru Camp</div>
+                <div class="card-rating">⭐ 8.2 • 25 EP</div>
+            </a>
+
+            <a href="player.html?movie=Silver Spoon" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMzUzMWJiMWQtZTI0Yy00ZmRmLThmOWEtNGVjYTVkMjAzMjJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Silver Spoon">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Silver Spoon</div>
+                <div class="card-rating">⭐ 8.1 • 24 EP</div>
+            </a>
+
+            <a href="player.html?movie=Grand Blue" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNjczYjZkYzEtOTdhMS00MDBhLWI0NGQtNmY2OWQwNTBiMjJjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Grand Blue">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Grand Blue</div>
+                <div class="card-rating">⭐ 8.6 • 12 EP</div>
+            </a>
+
+            <a href="player.html?movie=Shouwa Genroku" class="scroll-card">
+                <div class="card-image">
+                    <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/c2b3c26f93b959475b31c195f3da2f08.jpg" alt="Shouwa Genroku">
+                    <div class="card-overlay">
+                        <button class="play-icon">▶</button>
+                    </div>
+                </div>
+                <div class="card-title">Shouwa Genroku</div>
+                <div class="card-rating">⭐ 8.7 • 25 EP</div>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <p>&copy; 2024 StreamFlix | <a href="about.html">About</a> | <a href="privacy.html">Privacy</a> | <a href="#">Contact</a></p>
+</footer>
+
+    <script src="player.js"></script>
+    
+</body>
+</html>
