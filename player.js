@@ -317,7 +317,7 @@ const movieDatabase = {
         year: '2024',
         rating: '9.1',
         description: 'Humanity fights for survival against giant humanoid creatures known as Titans. An intense action-packed anime with stunning animation and compelling storytelling.',
-        videoUrl: 'https://youtu.be/LV-nazLVmgo',
+        videoUrl: 'https://www.youtube.com/embed/LV-nazLVmgo',
         image:'https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Death Note': {
@@ -326,7 +326,8 @@ const movieDatabase = {
         year: '2024',
         rating: '9.0',
         description: 'A psychological thriller about a high school student who finds a mysterious notebook that allows him to kill anyone by writing their name.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/NlJZ-YgAt-c',
+        image:'https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_.jpg'
     },
     'Demon Slayer': {
         title: 'Demon Slayer',
@@ -334,7 +335,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.8',
         description: 'A young man whose family was slaughtered by demons becomes a demon slayer to save his sister. Stunning animation and incredible action sequences.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/x7uLutVRBfI',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqLSe0YxHCOtJikJKKAC5nm7NmlqwyXG1tWA&s'
     },
     'My Hero Academia': {
         title: 'My Hero Academia',
@@ -342,7 +344,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.7',
         description: 'In a world where superpowers are common, a powerless teenager enrolls in a hero academy to become the greatest hero.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embede/FwE87GX3dEc',
+        image:'https://m.media-amazon.com/images/M/MV5BY2QzODA5OTQtYWJlNi00ZjIzLThhNTItMDMwODhlYzYzMjA2XkEyXkFqcGc@._V1_.jpg'
     },
     'Tokyo Ghoul': {
         title: 'Tokyo Ghoul',
@@ -350,7 +353,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.5',
         description: 'A dark fantasy anime about a world where flesh-eating ghouls live in hiding among human society.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/vGuQeQsoRgU',
+        image:'https://m.media-amazon.com/images/M/MV5BZWI2NzZhMTItOTM3OS00NjcyLThmN2EtZGZjMjlhYWMwODMzXkEyXkFqcGc@._V1_.jpg'
     },
     'Naruto': {
         title: 'Naruto',
@@ -358,7 +362,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.9',
         description: 'Follow Naruto as he trains to become the strongest ninja and protect his village. An epic adventure spanning years.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/-G9BqkgZXRA',
+        image:'https://m.media-amazon.com/images/M/MV5BZTNjOWI0ZTAtOGY1OS00ZGU0LWEyOWYtMjhkYjdlYmVjMDk2XkEyXkFqcGc@._V1_.jpg'
     },
     'Steins;Gate': {
         title: 'Steins;Gate',
@@ -366,7 +371,8 @@ const movieDatabase = {
         year: '2024',
         rating: '9.2',
         description: 'A brilliant time-travel anime about a group of friends who accidentally invent a microwave that sends messages to the past.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embede/uMYhjVwp0Fk',
+        image:'https://m.media-amazon.com/images/M/MV5BZjI1YjZiMDUtZTI3MC00YTA5LWIzMmMtZmQ0NTZiYWM4NTYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'One Punch Man': {
         title: 'One Punch Man',
@@ -374,7 +380,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.7',
         description: 'A hilarious action anime about a superhero who became too strong and now finds every fight boring.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embede/sl8LwAqFOvo',
+        image:'https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Fullmetal Alchemist': {
         title: 'Fullmetal Alchemist',
@@ -382,7 +389,8 @@ const movieDatabase = {
         year: '2024',
         rating: '9.1',
         description: 'Two brothers seek to restore their bodies after a failed alchemical experiment. An epic tale of redemption and sacrifice.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/-GoNo0DGroU',
+        image:'https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Jujutsu Kaisen': {
         title: 'Jujutsu Kaisen',
@@ -390,7 +398,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.9',
         description: 'A powerful anime about sorcerers fighting curses in a hidden world alongside normal society.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/yAOmZAyLKJ8',
+        image:'https://m.media-amazon.com/images/M/MV5BMjBlNTExMDAtMWZjZi00MDc5LWFkMjgtZDU0ZWQ5ODk3YWY5XkEyXkFqcGc@._V1_.jpg'
     },
     'Hunter x Hunter': {
         title: 'Hunter x Hunter',
@@ -398,7 +407,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.9',
         description: 'A boy embarks on an adventure to become a Hunter and find his father in a world of magical beasts.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/3k2tl78bfjk',
+        image:'https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_.jpg'
     },
     'Cowboy Bebop': {
         title: 'Cowboy Bebop',
@@ -406,7 +416,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.8',
         description: 'A classic neo-noir space western about bounty hunters on a spaceship called the Bebop.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdz-wzzr_U2iolT9zYC333DmJz4aKsiBKb7A&s'
     },
     'Mob Psycho 100': {
         title: 'Mob Psycho 100',
@@ -414,7 +425,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.7',
         description: 'A hilarious anime about a middle school boy with psychic powers trying to live a normal life.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4',
+        image:'https://qqcdnpictest.mxplay.com/pic/f4882bd59f9569a33171a160bc4bc75f/en/16x9/640x360/test_pic1746435493451.jpg'
     },
     'Code Geass': {
         title: 'Code Geass',
@@ -422,7 +434,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.7',
         description: 'A psychological mecha anime about a student who gains the power to command anyone to obey him.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/v-AGjx0N24U',
+        image:'https://m.media-amazon.com/images/M/MV5BMjA3OTUzNTIzOV5BMl5BanBnXkFtZTgwOTg4MTI1NjE@._V1_.jpg'
     },
     'Vinland Saga': {
         title: 'Vinland Saga',
@@ -430,7 +443,8 @@ const movieDatabase = {
         year: '2024',
         rating: '9.0',
         description: 'An epic historical anime about Vikings seeking revenge and redemption in a brutal world.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4',
+        image:'https://m.media-amazon.com/images/M/MV5BNDA3MGNmZTEtMzFiMy00ZmViLThhNmQtMjQ4ZDc5MDEyN2U1XkEyXkFqcGc@._V1_.jpg'
     },
     'Sword Art Online': {
         title: 'Sword Art Online',
@@ -438,7 +452,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.4',
         description: 'Players become trapped in a virtual reality MMO where death in the game means death in real life.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4',
+        image:'https://m.media-amazon.com/images/I/81rBX2Un6xL._AC_UF1000,1000_QL80_.jpg'
     },
     'Ergo Proxy': {
         title: 'Ergo Proxy',
@@ -446,7 +461,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.5',
         description: 'A philosophical sci-fi anime about androids and humans in a post-apocalyptic world.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4',
+        image:'https://i.redd.it/ergo-proxy-one-of-the-all-time-greats-of-the-genre-v0-80or5wfl3pdc1.jpg?width=1920&format=pjpg&auto=webp&s=26ee91247b831a1396b140623fcc906833da10b5'
     },
     'Blue Lock': {
         title: 'Blue Lock',
@@ -454,7 +470,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.3',
         description: 'An intense sports anime about young strikers competing to become the perfect soccer player.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/IVsII3dLbWc',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqD8SmKVSQN-p4D28bdmvQ3-Zx0X53sA6anQ&s'
     },
     'Spy x Family': {
         title: 'Spy x Family',
@@ -462,7 +479,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.6',
         description: 'A hilarious anime about a spy, an assassin, and a psychic forming a fake family.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/ofXigq9aIpo',
+        image:'https://snworksceo.imgix.net/cds/5cfb9cca-68ee-42bc-aa29-760c168924e8.sized-1000x1000.jpg?w=1000&dpr=2'
     },
     'Chainsaw Man': {
         title: 'Chainsaw Man',
@@ -470,7 +488,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.7',
         description: 'A dark action anime about a boy who becomes a chainsaw-wielding demon hunter.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/FaHY74-6UYs',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqD8SmKVSQN-p4D28bdmvQ3-Zx0X53sA6anQ&s'
     },
     'Trigun': {
         title: 'Trigun',
@@ -478,7 +497,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.4',
         description: 'A classic western anime about a legendary gunslinger with a $60 billion bounty on his head.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTng154LhHILacW95VG66HIjA_Ss_445w-bsg&s'
     },
     'Wind Breaker': {
         title: 'Wind Breaker',
@@ -486,7 +506,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.2',
         description: 'An action anime about a street fighter who transfers to high school to pursue a different path.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embede/KQMvKS5TK5g',
+        image:'https://m.media-amazon.com/images/M/MV5BNTQzNDI5OGItZDZkMy00MWQ1LWIwM2YtYzc2YWNhOGJlZWQxXkEyXkFqcGc@._V1_.jpg'
     },
     'Kaiju No. 8': {
         title: 'Kaiju No. 8',
@@ -494,7 +515,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.5',
         description: 'An action-packed anime about a man fighting giant monsters known as Kaiju.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embede/SXiSfXiiOxM',
+        image:'https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Kaiju_No_8.jpg/250px-Kaiju_No_8.jpg'
     },
     'Frieren': {
         title: 'Frieren: Beyond Journey\'s End',
@@ -502,7 +524,8 @@ const movieDatabase = {
         year: '2024',
         rating: '9.3',
         description: 'A beautiful fantasy anime about an elf\'s 50-year journey after her adventuring days end.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4',
+        image:'https://m.media-amazon.com/images/M/MV5BZTI4ZGMxN2UtODlkYS00MTBjLWE1YzctYzc3NDViMGI0ZmJmXkEyXkFqcGc@._V1_.jpg'
     },
     'Solo Leveling': {
         title: 'Solo Leveling',
@@ -510,7 +533,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.8',
         description: 'A Korean anime about the weakest hunter gaining mysterious powers to become the strongest.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/I6JIwjWOhnQ',
+        image:'https://resizing.flixster.com/ChafGu2e-ZWTxSZOycoILjKeRqw=/fit-in/352x330/v2/https://resizing.flixster.com/WvUR0LcCwPkfo07dl1CChnL1f6o=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMzRlNmFmN2MtNjA2Mi00MTUwLTg2MGYtOGZlN2M5OGRjZWUzLnBuZw=='
     },
     'Bleach': {
         title: 'Bleach',
@@ -518,7 +542,8 @@ const movieDatabase = {
         year: '2024',
         rating: '7.9',
         description: 'A long-running action anime about a soul reaper protecting the living world from evil spirits.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embede/W99Ef2LkyOg',
+        image:'https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Bleachanime.png/250px-Bleachanime.png'
     },
     'Fairy Tail': {
         title: 'Fairy Tail',
@@ -526,7 +551,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.2',
         description: 'An adventurous anime about a guild of powerful mages going on epic quests.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4',
+        image:'https://image.api.playstation.com/vulcan/img/rnd/202007/1305/oNkLAxLkFuLVcaJ6XpaNkkNb.png'
     },
     'One Piece': {
         title: 'One Piece',
@@ -534,7 +560,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.8',
         description: 'A legendary anime following a pirate crew searching for treasure and adventure on the high seas.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/1KMcoJBMWE4',
+        image:'https://i.redd.it/0u2aefrzacmc1.jpeg'
     },
     'Dragon Ball Z': {
         title: 'Dragon Ball Z',
@@ -542,7 +569,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.7',
         description: 'A classic action anime with epic battles and powerful transformations.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/sxufB6DxXk0',
+        image:'https://m.media-amazon.com/images/M/MV5BN2VlNTdlMzQtYzE5OC00YmYwLTgyZTItYjEzMWY0ZDNjMTJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Seven Deadly Sins': {
         title: 'Seven Deadly Sins',
@@ -550,7 +578,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.3',
         description: 'An epic fantasy anime about legendary knights fighting for justice and redemption.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embede/s4U5ipjy6Vk',
+        image:'https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Seven_Deadly_Sins_Characters.jpg/330px-Seven_Deadly_Sins_Characters.jpg'
     },
     'Akame ga Kill': {
         title: 'Akame ga Kill',
@@ -558,7 +587,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.1',
         description: 'A dark action anime about assassins fighting against a corrupt empire.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4',
+        image:'https://m.media-amazon.com/images/M/MV5BYTQyZGQzMmUtNjcwMy00ZThiLWFmMzMtOTA0NTI3OWE0MTU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Kill la Kill': {
         title: 'Kill la Kill',
@@ -566,7 +596,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.4',
         description: 'An over-the-top action anime with incredible fight scenes and humor.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4',
+        image:'https://a.storyblok.com/f/178900/847x1199/5a03b402c3/tengen-toppa-gurren-lagann-vs-kill-la-kill-exhibition-visual.jpg/m/filters:quality(95)format(webp)'
     },
     'Nichijou': {
         title: 'Nichijou',
@@ -574,7 +605,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.2',
         description: 'A hilarious comedy anime about the everyday lives of high school friends.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4',
+        image:'https://m.media-amazon.com/images/M/MV5BNDk1YjhiODktNjczMC00MDgxLTlkMGMtMzdkNzY1MTk4YjkxXkEyXkFqcGc@._V1_.jpg'
     },
     'Kaguya-sama': {
         title: 'Kaguya-sama: Love is War',
@@ -582,7 +614,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.6',
         description: 'A clever romantic comedy about two genius students playing mind games over love.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/rZ95aZmQu_8',
+        image:'https://m.media-amazon.com/images/M/MV5BMTM1ZWViNWMtZWY2ZC00YmYyLTk1ZGEtMzRjOWI2YTM1OTI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Konosuba': {
         title: 'Konosuba',
@@ -590,7 +623,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.3',
         description: 'A hilarious parody fantasy anime about a party of misfit adventurers.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4',
+        image:'https://m.media-amazon.com/images/I/81+BXD01wtL.jpg'
     },
     'Yuru Camp': {
         title: 'Yuru Camp',
@@ -598,7 +632,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.2',
         description: 'A cozy anime about girls going on camping adventures.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4',
+        image:'https://upload.wikimedia.org/wikipedia/en/9/90/Yurucamp%2C_Volume_1.jpg'
     },
     'Silver Spoon': {
         title: 'Silver Spoon',
@@ -606,7 +641,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.1',
         description: 'A slice-of-life anime about students at an agricultural school.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/lqbo21SmNd0',
+        image:'https://m.media-amazon.com/images/M/MV5BMzUzMWJiMWQtZTI0Yy00ZmRmLThmOWEtNGVjYTVkMjAzMjJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Grand Blue': {
         title: 'Grand Blue',
@@ -614,7 +650,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.6',
         description: 'A hilarious anime about college students and diving adventures.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/d1reryPOMX0',
+        image:'https://m.media-amazon.com/images/M/MV5BNjczYjZkYzEtOTdhMS00MDBhLWI0NGQtNmY2OWQwNTBiMjJjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Shouwa Genroku': {
         title: 'Shouwa Genroku Rakugo Shinjuu',
@@ -622,7 +659,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.7',
         description: 'A beautiful drama about the traditional art of rakugo storytelling.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4',
+        image:'https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/c2b3c26f93b959475b31c195f3da2f08.jpg'
     }
 };
 
