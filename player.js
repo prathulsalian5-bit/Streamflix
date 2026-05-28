@@ -79,7 +79,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.6',
         description: 'A hilarious adventure where two people swap lives. Chaos and laughter ensue in this entertaining film.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/ZwMoVCzvrBU',
+        image:'https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWy559RcK_PTwyt5V8CttlzLTkTy3cL6qH5QWCn32JVSv22ynH2OghNn5Aw58WtPgfqC7fvyrW8QZIBTL5_FaH18kTXhejs95BYx.jpg?r=0c6'
     },
     'The Bluff': {
         title: 'The Bluff',
@@ -87,7 +88,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.8',
         description: 'A powerful drama about a pirate captain seeking redemption. A gripping tale of adventure and honor.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/uUYMqRjNxhM',
+        image:'https://m.media-amazon.com/images/M/MV5BZDVlYWM2YjAtZTUxMS00OWEwLWI4YWMtNmFhMjU3MDY4OGJkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Street Fighter': {
         title: 'Street Fighter',
@@ -95,7 +97,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.2',
         description: 'Epic martial arts action in a futuristic world. Battle with incredible fight choreography.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/Xt4X4FvXk2A',
+        image:'https://cdn.kinocheck.com/i/ti20j6m42f.jpg'
     },
     'Anaconda': {
         title: 'Anaconda',
@@ -103,7 +106,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.0',
         description: 'A thrilling adventure in the jungle. Face the dangers of nature in this exciting expedition.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/q0UxtQfgz0A',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwXG9XTp2FjR9X4eqUIfO8uK3W_-uOKTthZA&s'
     },
     'Karuppu': {
         title: 'Karuppu',
@@ -111,15 +115,17 @@ const movieDatabase = {
         year: '2024',
         rating: '7.9',
         description: 'An action-packed crime thriller. Watch as heroes take on powerful enemies.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/JpVl_-1YgIo',
+        image:'https://jp-cineplex.s3.amazonaws.com/images/1778427294094_mv5bnge3nmy3n2itytyyyi00mmnmlthhmdutywyxyjgxyjhjzdu5xkeyxkfqcgc_v1_.jpg'
     },
-    'Rahu Kethu': {
-        title: 'Rahu Kethu',
+    'The drama': {
+        title: 'The Drama',
         genre: 'Comedy • Fantasy',
         year: '2024',
         rating: '7.7',
         description: 'A hilarious comedy with fantastical elements. Laugh out loud with this entertaining film.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/6zmKcUa4Xxk',
+        image:'https://m.media-amazon.com/images/M/MV5BMTcwOGZhYmItYTg3ZS00NjUwLWJiMmQtMjU5YjEwYWY0NmNkXkEyXkFqcGc@._V1_.jpg'
     },
     'Cocktail 2': {
         title: 'Cocktail 2',
@@ -127,7 +133,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.5',
         description: 'A romantic sequel bringing back the magic. Experience love, betrayal, and redemption.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/xd9mo-Yq2XY',
+        image:'https://images.bhaskarassets.com/web2images/521/2026/02/20/whatsapp-image-2026-02-20-at-134949_1771576032.jpeg'
     },
     'Dhurandhar 2': {
         title: 'Dhurandhar 2',
@@ -135,7 +142,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.3',
         description: 'An intense action-thriller with explosive sequences. The revenge saga continues.',
-        videoUrl: "https://www.youtube.com/embed/rZ_e-s6VvR4"
+        videoUrl: "https://www.youtube.com/embed/rZ_e-s6VvR4",
+        image:'https://www.lab-1.nl/wp-content/uploads/2025/12/Ranveer.jpeg'
     },
     'KD The Devil': {
         title: 'KD The Devil',
@@ -143,7 +151,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.7',
         description: 'A dark psychological thriller about a mysterious figure. Suspense and terror await.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/yQLKrS5N4KU',
+        image:'https://m.media-amazon.com/images/M/MV5BYjY4ZWQxMzYtYTVjYi00ZWJkLWI2MjktYzQ0MGQ4YTZlNmEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpgl'
     },
     'Youth': {
         title: 'Youth',
@@ -151,49 +160,55 @@ const movieDatabase = {
         year: '2024',
         rating: '8.4',
         description: 'A touching story about youth, dreams, and growing up. Heartfelt and humorous.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/8aG_TwWMtvQ',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlmICs_IHYPxioLBwagwxCu5WANZRL2v4KlQ&s'
     },
     'AthiReady': {
         title: 'AthiReady',
         genre: 'Drama • Action',
-        year: '2024',
+        year: '2025',
         rating: '8.8',
         description: 'A powerful drama about determination and resilience. An inspiring journey.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/syBtRf69q6s',
+        image:'https://m.media-amazon.com/images/M/MV5BOTc0NjhhNWYtZThjNS00NThmLTgxODEtNzdhMWJhMjk0NTliXkEyXkFqcGc@._V1_.jpg'
     },
     'Mercy': {
         title: 'Mercy',
         genre: 'Sci-Fi • Drama',
-        year: '2024',
+        year: '2025',
         rating: '8.2',
         description: 'A sci-fi drama exploring themes of compassion and survival. Thought-provoking.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/7H7Djx17l8Y',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOd7eLRGYQP_DEbhoQaaE1-laEm61OkduxYQ&s'
     },
     'Booth Bangla': {
         title: 'Booth Bangla',
         genre: 'Horror • Comedy',
-        year: '2024',
+        year: '2025',
         rating: '7.9',
         description: 'A horror-comedy with local flavor. Spooky and hilarious at the same time.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/XW1RkKiRnsg',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXXbTEc3tBTlBZd163h2DEydRJL85Z5WM1KQ&s'
     },
-    'Copy Patil': {
-        title: 'Copy Patil',
-        genre: 'Comedy • Crime',
+    '1920': {
+        title: '1920',
+        genre: 'Horror • thirler',
         year: '2024',
         rating: '7.7',
-        description: 'A hilarious comedy about a con artist. Laughter and mishaps galore.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        description: 'horror thirler experince in every movement.',
+        videoUrl: 'https://www.youtube.com/embed/k2TufkNYzxM',
+        image:'https://upload.wikimedia.org/wikipedia/en/thumb/2/29/1920_-_Horrors_of_the_Heart.jpg/250px-1920_-_Horrors_of_the_Heart.jpg'
     },
 
     // ======== TV SHOWS ========
     'The Kapil Sharma Show': {
         title: 'The Kapil Sharma Show',
         genre: 'Comedy • Entertainment',
-        year: '2024',
+        year: '2025',
         rating: '8.9',
         description: 'The most entertaining talk show with hilarious sketches and celebrity guests. Laugh with India\'s biggest comedy star.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/24QW3fR_dVE',
+        image:'https://m.media-amazon.com/images/M/MV5BYTkxNTNhYjktMTcxNy00OTA5LThlY2ItZjM3YTFjYmQ1ZmYzXkEyXkFqcGc@._V1_.jpg'
     },
     'Breaking Bad': {
         title: 'Breaking Bad',
@@ -201,23 +216,26 @@ const movieDatabase = {
         year: '2024',
         rating: '9.2',
         description: 'One of the greatest TV series ever made. Follow a chemistry teacher turned drug manufacturer in this gripping thriller.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/HhesaQXLuRY',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7AUQ1ap545wJq1Op_9GPLFAV15boesLoyZA&s'
     },
     'The Haunting': {
         title: 'The Haunting',
         genre: 'Horror • Supernatural',
-        year: '2024',
+        year: '2025',
         rating: '8.5',
         description: 'A spine-chilling horror series that combines psychological terror with supernatural elements.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/tYy9PZd16qc',
+        image:'https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_.jpg'
     },
     'Stranger Things': {
         title: 'Stranger Things',
         genre: 'Sci-Fi • Mystery',
-        year: '2024',
+        year: '2025',
         rating: '8.7',
         description: 'A sci-fi series set in the 1980s where strange events occur in a small town. Mystery and adventure await.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/AfQ13jsLDms',
+        image:'https://upload.wikimedia.org/wikipedia/en/b/b1/Stranger_Things_season_1.jpg'
     },
     'The Office': {
         title: 'The Office',
@@ -225,7 +243,8 @@ const movieDatabase = {
         year: '2024',
         rating: '9.0',
         description: 'A mockumentary comedy about office workers. Hilarious and heartwarming episodes.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/MIEVoulYZM0',
+        image:'https://m.media-amazon.com/images/I/51rCkF2r3iL._AC_UF1000,1000_QL80_.jpg'
     },
     'Game of Thrones': {
         title: 'Game of Thrones',
@@ -233,7 +252,8 @@ const movieDatabase = {
         year: '2024',
         rating: '9.1',
         description: 'An epic fantasy series with dragons, knights, and political intrigue. A cultural phenomenon!',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/KPLWWIOCOOQ',
+        image:'https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Narcos': {
         title: 'Narcos',
@@ -241,7 +261,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.8',
         description: 'A crime thriller series about the rise and fall of a drug empire. Intense and compelling!',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/xl8zdCY-abw',
+        image:'https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Narcos_season_1.png/250px-Narcos_season_1.png'
     },
     'Westworld': {
         title: 'Westworld',
@@ -249,7 +270,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.3',
         description: 'A sci-fi series set in a theme park populated by android hosts. Reality and consciousness questioned!',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/9BqKiZhEFFw',
+        image:'https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Westworld_season_1.png/250px-Westworld_season_1.png'
     },
     'The Mandalorian': {
         title: 'The Mandalorian',
@@ -257,7 +279,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.6',
         description: 'A space adventure series following a bounty hunter in the Star Wars universe. Action-packed!',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/aOC8E8z_ifw',
+        image:'https://m.media-amazon.com/images/I/81POs6kkJYL._AC_UF1000,1000_QL80_.jpg'
     },
     'The Witcher': {
         title: 'The Witcher',
@@ -265,7 +288,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.2',
         description: 'A fantasy series about a monster hunter navigating a world of magic and danger. Epic!',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://www.youtube.com/embed/HK9dU6JIroU',
+        image:'https://m.media-amazon.com/images/M/MV5BOTQzMzNmMzUtODgwNS00YTdhLTg5N2MtOWU1YTc4YWY3NjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Friends': {
         title: 'Friends',
@@ -273,7 +297,8 @@ const movieDatabase = {
         year: '2024',
         rating: '8.9',
         description: 'A comedy series about six friends living in New York City. A timeless classic!',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ElephantsDream.mp4'
+        videoUrl: 'https://www.youtube.com/embed/yphHPsVEhC8',
+        image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyFlK5bul2WPRpYrLCqe_4nbqUcg_qpsAplg&s'
     },
     'Modern Family': {
         title: 'Modern Family',
@@ -281,7 +306,8 @@ const movieDatabase = {
         year: '2024',
         rating: '9.5',
         description: 'A hilarious and touching series about a modern family. Heartwarming and funny!',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/ForBiggerBlazes.mp4'
+        videoUrl: 'https://www.youtube.com/embed/rbpTUPisA78',
+        image:'https://m.media-amazon.com/images/I/81YzGusG3cL._AC_UF1000,1000_QL80_.jpg'
     },
 
     // ======== ANIME ========
@@ -291,7 +317,8 @@ const movieDatabase = {
         year: '2024',
         rating: '9.1',
         description: 'Humanity fights for survival against giant humanoid creatures known as Titans. An intense action-packed anime with stunning animation and compelling storytelling.',
-        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4'
+        videoUrl: 'https://youtu.be/LV-nazLVmgo',
+        image:'https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
     },
     'Death Note': {
         title: 'Death Note',
