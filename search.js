@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Redirect to first result
-        window.location.href = 'pages/player.html?movie=' + encodeURIComponent(results[0].key);
+        window.location.href = 'player.html?movie=' + encodeURIComponent(results[0].key);
     }
 
     function getAllMovies() {

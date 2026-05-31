@@ -24,30 +24,39 @@
         </div>
     </nav>
 
-    <!-- Signup Form -->
+    <!-- Signup Form Section -->
     <section class="auth-section">
         <div class="auth-box">
             <h1>Create Account</h1>
-            <p>Join StreamFlix today</p>
+            <p>Join StreamFlix today and start streaming</p>
             <form id="signupForm">
                 <input type="text" id="fullname" placeholder="Full Name" required>
                 <input type="email" id="signup-email" placeholder="Email" required>
-                <input type="tel" id="phone" placeholder="Phone Number">
-                <input type="password" id="signup-password" placeholder="Password" required>
+                <input type="tel" id="phone" placeholder="Phone Number (Optional)">
+                <input type="password" id="signup-password" placeholder="Password (must have uppercase, lowercase, number)" required>
                 <input type="password" id="confirm-password" placeholder="Confirm Password" required>
-                <label><input type="checkbox" id="terms" required> I agree to Terms & Privacy</label>
+                
+                <div class="form-agreement">
+                    <label>
+                        <input type="checkbox" id="terms" required>
+                        I agree to <a href="privacy.html" target="_blank">Terms & Privacy</a>
+                    </label>
+                </div>
+
                 <button type="submit" class="btn-primary">Create Account</button>
-                <p id="signupMessage"></p>
+                <p id="signupMessage" class="message"></p>
             </form>
-            <p>Already have an account? <a href="login.html">Sign in here</a></p>
+            
+            <p class="auth-link">Already have an account? <a href="login.html">Sign in here</a></p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2024 StreamFlix | <a href="about.html">About</a> | <a href="#">Privacy</a> | <a href="#">Contact</a></p>
+        <p>&copy; 2024 StreamFlix | <a href="about.html">About</a> | <a href="privacy.html">Privacy</a> | <a href="#">Contact</a></p>
     </footer>
 
-    <script src="player.js"></script>
+    <!-- Authentication Script -->
+    <script src="auth.js"></script>
 </body>
 </html>
